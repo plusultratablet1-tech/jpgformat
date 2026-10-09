@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [{"source":"/karate-zane","destination":"/karate-zane/","permanent":true}],
+  "rewrites": [
+    {"source":"/karate-zane/","destination":"https://zane-karate.vercel.app/"},
+    {"source":"/karate-zane/:path*","destination":"https://zane-karate.vercel.app/:path*"}
+  ]
+}
